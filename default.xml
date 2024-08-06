@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
-    <remote fetch="https://github.com/jiazhilin" name="origin" review="http://192.168.31.244/"/>
-    <default remote="origin" revision="TEST-DEV" sync-j="4" />
-    <project name="testprojA" path="testprojA" revision="TEST-DEV" />
-    <project name="testprojB" path="testprojB"  revision="TEST-DEV" />
+
+  <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
+  <remote fetch="https://github.com/khadas/" name="github"/>
+  <default remote="github" revision="khadas-edge2-android13" sync-c="true" sync-j="4"/>
+
+  <project name="u-boot" path="u-boot" remote="github" revision="e3d24d162d4432c9ef03813bbf33f60e16da2df5"/>
+  <project name="android_external_libgps" path="external/libgps" remote="github" revision="8c51f0ef5d99beaecdc2a5b75b323c71f7f228e2"/>
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="8786c551cf8dafc7d21523340fff1c38e9f3bbfa"/>
+
 </manifest>
 
