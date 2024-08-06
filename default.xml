@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
     <remote fetch="https://github.com/jiazhilin" name="origin" review="http://192.168.31.244/"/>
-    <default remote="origin" revision="TEST-DEV" sync-j="4" />
-    <project name="testprojA" path="testprojA" revision="TEST-DEV" />
-    <project name="testprojB" path="testprojB"  revision="TEST-DEV" />
+    <default remote="origin" revision="TEST-REL" sync-c="true" sync-j="4" />
+    <project name="testprojA" path="testprojA"/>
+    <project name="testprojB" path="testprojB"/>
 </manifest>
 
