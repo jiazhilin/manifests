@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
     <remote fetch="https://github.com/jiazhilin" name="origin" review="https://android.googlesource.com/"/>
+	<remote fetch="https://github.com/khadas/" name="github"/>
+	
     <default remote="origin" revision="TEST-DEV" sync-j="4" />
     <project name="testprojA" path="testprojA"/>
     <project name="testprojB" path="testprojB"/>
+	<project name="android_vendor_amlogic_apps_OTAService" path="OTAService" remote="github"/>
 </manifest>
 
