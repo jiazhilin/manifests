@@ -7,6 +7,6 @@
     <project name="testprojA" path="testprojA"/>
     <project name="testprojB" path="testprojB"/>
     <project name="testprojC" path="testprojC"/>
-    <project name="android_vendor_amlogic_apps_OTAService" path="OTAService" remote="github"/>
+    <project name="android_vendor_amlogic_apps_OTAService" path="OTAService" remote="github" revision="583cdfc18d70b413852faa51587490c9219d8a3e"/>
 </manifest>
 
