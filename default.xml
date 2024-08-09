@@ -6,7 +6,7 @@
     <default remote="origin" revision="TEST-DEV" sync-j="4" />
     <project name="testprojA" path="testprojA"/>
     <project name="testprojB" path="testprojB"/>
-    <project name="testprojC" path="testprojC"/>
+    <project name="testprojC" path="testprojC" revision="68b729cdc998d00b92858be61b679230d9632682"/>
     <project name="android_vendor_amlogic_apps_OTAService" path="OTAService" remote="github" revision="583cdfc18d70b413852faa51587490c9219d8a3e"/>
 </manifest>
 
