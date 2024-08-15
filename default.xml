@@ -4,9 +4,9 @@
   <remote fetch="https://github.com/khadas/" name="github"/>
   <default remote="aosp" revision="refs/tags/android-13.0.0_r74" sync-c="true" sync-j="4"/>
 
-  <project dest-branch="khadas-edge2-android13" name="android_external_libgps" path="external/libgps" remote="github" revision="8c51f0ef5d99beaecdc2a5b75b323c71f7f228e2" upstream="khadas-edge2-android13"/>
+  <project name="android_external_libgps" path="external/libgps" remote="github" revision="8c51f0ef5d99beaecdc2a5b75b323c71f7f228e2" upstream="khadas-edge2-android13"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="dad40a0ae365e87482218b40e0d5fa226640d291" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" revision="090cb5952bab050da27003badb2d27e279e62115" upstream="refs/tags/android-13.0.0_r74"/>
-  <project dest-branch="khadas-edge2-android13" name="u-boot" path="u-boot" remote="github" revision="4fda4ee51f3e5a202bad5db3c2760bcd06478d33" upstream="khadas-edge2-android13"/>
+  <project name="u-boot" path="u-boot" remote="github" revision="4fda4ee51f3e5a202bad5db3c2760bcd06478d33" upstream="khadas-edge2-android13"/>
 
 </manifest>
